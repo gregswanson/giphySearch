@@ -1,0 +1,24 @@
+.container {
+	padding: 15px;
+}
+
+.input-group {
+	margin-bottom: 20px;
+}
+
+.movie {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.picDiv {
+	border-left: 1px dotted #d3d3d3;
+}
+
+.panel {
+	width: 400px;
+}
+
+img {
+	max-width: 398px;
+}
