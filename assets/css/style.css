@@ -1,5 +1,111 @@
+/*
+font-family: 'Monoton', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: url(../images/bg4.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-color: #f2f2f2;
+	font-weight: 500;
+}
+
 .container {
-	padding: 15px;
+	background: rgba(55, 55, 55, .8);
+	border-radius: 8px;
+	min-height: 768px;
+}
+
+h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 70px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+#white {
+	color: #fff;
+	text-shadow: 0 0 2px #000, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+
+}
+
+#red {
+	color: #e11b22;
+	text-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f5b7ab, 0 0 30px #f5b7ab, 0 0 40px #f5b7ab;
+}
+
+
+
+#movieSearchBTN {
+	background-color: #e11b22;
+	border-color: #fff;
+	color: #fff;
+}
+
+#movieSearch {
+	border-color: #fff;
+	background-color: #000;
+	color: #fff;
+}
+
+.movie {
+	color: #fff;
+	border-color: #00abff;
+	background-color: #00abff;
+}
+
+#buttonHolder > .active1 {
+	color: #fff;
+	border-color: #85c614;
+	background-color: #85c614;
+}
+
+ #buttonHolder > .active1:focus {
+ 	outline: none;
+ }
+
+  #btn-default:hover {
+ 	color: #9840fb;
+	border-color: #9840fb;
+	background-color: #fff;
+ 	outline: none;
+ }
+
+
+
+.movieHolder {
+	background: rgba(55, 55, 55, .7);
+	border: 1px solid rgba(242, 242, 242, .7);
+	width: 400px;
+	margin: 0px 0px 20px 20px;
+	overflow: none;
+	border-radius: 8px 8px 8px 8px;
+	display: inline-block;
+}
+
+.movieHeading{
+	background: rgba(0, 0, 0, .9);
+	border-bottom: 1px solid rgba(242, 242, 242, .7);
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 8px 8px 0px 0px;
+
+}
+
+.warning {
+	color: #e5a700;
+	font-size: 18pt;
+	margin-left: 20px;
+	padding: 10px; 
+	font-weight: 700;
 }
 
 .input-group {
@@ -12,12 +118,10 @@
 }
 
 .picDiv {
-	border-left: 1px dotted #d3d3d3;
+	padding: 40px 20px 20px 20px;
 }
 
-.panel {
-	width: 400px;
-}
+
 
 img {
 	max-width: 398px;

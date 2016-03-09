@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Monoton|Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
@@ -12,34 +13,36 @@
 <!-- title -->
 <div class="row">
 	<div class="col-md-12">
-		<h1>Giphy Search</h1>
+		<h1><span id="red">GIPHY</span><span id="white"> MOVIE SEARCH</span> </h1>
 	</div>
 </div>
 
 
 <!--search -->
 	<div class="row">
-		<div class="col-md-4 form-group searchDiv">
+		<div class="col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2 form-group searchDiv">
 			<div class="input-group">
 		      <input type="text" class="form-control" id="movieSearch" placeholder="Search for movie">
 		      <span class="input-group-btn">
-		      <button class="btn btn-default" id="movieSearchBTN" type="button">Add Button!</button>
+		      <button class="btn btn-default" id="movieSearchBTN" type="submit"><span class="glyphicon glyphicon-search" aria-label="search"></span></button>
 		      </span>	
 			</div>
-		
-<!-- Buttons -->
-			<div id="buttonHolder"></div>
 		</div>
-
-<!-- gif display -->
-	<div class="col-md-8 picDiv" id="gifDiv">
-
-		
+	</div>	
+<!-- Buttons -->
+<div class="row buttoHolderRow">
+	<div class="col-md-12 text-center">
+			<div id="buttonHolder"></div>
 	</div>
-
-
-
 </div>
+<!-- gif display -->
+<div class="row">
+	<div class="col-md-12 picDiv text-center" id="gifDiv">
+	<p class="warning">Type in box or click button to begin</p>
+	</div>
+</div>
+
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
