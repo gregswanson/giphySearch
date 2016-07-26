@@ -1,5 +1,5 @@
 # Giphy Search
-<img src="XXX" alt="Giphy Search App" width="300px"/>
+<img src="https://github.com/gregswanson/giphySearch/blob/master/img/giphysearch1.png" alt="Giphy Search App" width="300px"/>
 
 Giphy Movie Search allows you to search the Giphy API. You can use either the predefined search or search for any movie that you want.
 
